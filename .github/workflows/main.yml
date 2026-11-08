@@ -2,7 +2,7 @@ name: Deploy Vue Vite Site to Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ J_Z_Def ]
 
 permissions:
   contents: read
