@@ -6,11 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/capstone-login-portal/',
-  plugins: [
-    vue(),
-    vueDevTools(),
-  ],
+  base: '/capstone-project/',
+  plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
