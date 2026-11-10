@@ -37,3 +37,48 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# --- PYTHON & BACKEND ---
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+stdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- ENVIRONMENT & SECRETS ---
+# Local environment files (never commit API keys or passwords)
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# --- LOCAL UPLOADS & RUNTIME DATA ---
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.db
+*.sqlite3
