@@ -1,4 +1,4 @@
-name: Deploy Vue Vite Site to Pages
+name: Deploy Vue Vite Sit e to Pages
 
 on:
   push:
